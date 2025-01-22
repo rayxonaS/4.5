@@ -83,6 +83,15 @@
 //for 8
 //2 sonining qandaydir darajasini bildiruvchi n butun soni berilgan (n > 0). n = 2^k ni aniqlovchi programma tuzilsin.
 
+//let n = +prompt("Son kiriting");
+//let i = 0;
+//let sum = 0;
+//while (sum < n) {
+//sum = 2 ** i;
+//i++;
+//}
+//console.log(i);
+
 //for 9
 //a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlarni (a va b ni ham) chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi programma tuzilsin. (a va b xam chiqarilsin).
 
