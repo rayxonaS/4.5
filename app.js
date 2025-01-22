@@ -82,7 +82,6 @@
 
 //for 8
 //2 sonining qandaydir darajasini bildiruvchi n butun soni berilgan (n > 0). n = 2^k ni aniqlovchi programma tuzilsin.
-
 //let n = +prompt("Son kiriting");
 //let i = 0;
 //let sum = 0;
