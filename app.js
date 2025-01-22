@@ -19,14 +19,37 @@
 //n butun soni berilgan (n > 0). Quyidagi yig'indini hisoblovchi programma tuzilsin.
 //S = n^2 +(n+1)^2+(n+2)^2 + ... +(2*n)^2
 
-//let n = +prompt("Son kiriitng");
-//let counter = 0;
-//for (i = 0; i < n; i++) {
-//if ((counter = counter + (n + i) ** 2)) {
-//counter++;
+//let n = +prompt("Son kiriting");
+//let sum = 0;
+//for (let i = 0; i <= n; i++) {
+//sum += (n + i) ** 2;
+//}
+//console.log(sum);
+
+//for 4
+//N butun soni berilgan. Quyidagi yig'indini chiqaruvchi programma tuzilsin.
+//1^N+2^(N-1) + ...+ N^1
+
+//let n = +prompt("Son kiriting");
+//let k = n;
+//let sum = 0;
+//for (i = 1; i <= 5; i++) {
+//sum += i ** k;
+//k--;
+//}
+//console.log(sum);
+
+//for 5
+//A va B butun soni berilgan (A < B). A va B sonlari orasidagi barcha butun sonlarni chiqaruvchi programma tuzilsin. Bunda har bir son o'zining //qiymaticha chiqarilsin. Ya'ni 3 soni 3 marta chiqariladi.
+
+//let A = +prompt("Son kiriting");
+//let B = +prompt("Son kiriting");
+
+//for (i = A; i <= B; i++) {
+//for (let k = 0; k < i; k++) {
+//console.log(i);
 //}
 //}
-//console.log(counter);
 
 //for 6
 //Sonning bo’luvchilarini topish;
@@ -56,6 +79,9 @@
 //}
 //console.log(counter);
 //console.log(N);
+
+//for 8
+//2 sonining qandaydir darajasini bildiruvchi n butun soni berilgan (n > 0). n = 2^k ni aniqlovchi programma tuzilsin.
 
 //for 9
 //a va b butun sonlari berilgan (a < b). a va b sonlari orasidagi barcha butun sonlarni (a va b ni ham) chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi programma tuzilsin. (a va b xam chiqarilsin).
